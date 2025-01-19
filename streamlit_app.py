@@ -18,7 +18,6 @@ def sortfile(fliee):            # makes a list form the text files
             i = ''
 
     content.sort()   # sorts the list
-    scores.close()
     
     return content
 
