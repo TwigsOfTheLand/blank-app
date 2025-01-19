@@ -2,9 +2,9 @@ import random, streamlit as st
 
 
 def sortfile(fliee):            # makes a list form the text files
-    scores = open(fliee, 'r')
+    
     content = []
-    for i in scores:
+    for i in open('filiee', encoding = "ISO-8859-1"):
         i = i.replace('\n', '')
         try:
 
