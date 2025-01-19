@@ -4,7 +4,7 @@ import random, streamlit as st
 def sortfile(fliee):            # makes a list form the text files
     
     content = []
-    for i in open('filiee', encoding = "ISO-8859-1"):
+    for i in open(fliee, encoding = "ISO-8859-1"):
         i = i.replace('\n', '')
         try:
 
