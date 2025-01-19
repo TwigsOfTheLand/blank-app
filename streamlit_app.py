@@ -18,18 +18,8 @@ def sortfile(fliee):            # makes a list form the text files
             i = ''
 
     content.sort()   # sorts the list
-
-
     scores.close()
-
-    scores = open(fliee, 'w')
-    for item in content:      # rewrites the list into the file they came from but sorted
-        if item == '':
-            print('')
-        else:
-            scores.write(str(item) + '\n')
-    scores.close()
-
+    
     return content
 
 def getcard(types):
