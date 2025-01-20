@@ -61,7 +61,7 @@ misc = misc1 + school + people + shows    # puts all the values in misc list
 
 
 misc = list(dict.fromkeys(misc))    # removes the duplicate items form misc
-
+misc += misc1
 
 types = [games, misc, school, people, shows] # makes a 2d array with all the lists on it
 
